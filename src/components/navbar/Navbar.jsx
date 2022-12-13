@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./navbar.module.css";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/instalogo.png";
+import person from "../../assets/logo.jpg"
 
 import {
     AiOutlineSearch,
@@ -27,7 +28,7 @@ const Navbar = () => {
                     <AiOutlineHeart className={classes.icon} />
                     <FiSend className={classes.icon} />
                     <div className={classes.profilePicContainer}>
-                        <img src="" alt="" className={classes.profilePicImg} />
+                        <img src={person} alt="" className={classes.profilePicImg} />
                     </div>
                 </div>
             </div>

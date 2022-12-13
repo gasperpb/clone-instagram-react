@@ -1,9 +1,15 @@
 import React from 'react'
+import Posts from '../posts/Posts'
+import Stories from '../stories/Stories'
+import classes from './leftside.module.css'
 
-const leftSide = () => {
+const LeftSide = () => {
     return (
-        <div>leftSide</div>
+        <div className={classes.container}>
+            <Stories />
+            <Posts />
+        </div>
     )
 }
 
-export default leftSide
+export default LeftSide
