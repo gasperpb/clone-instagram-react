@@ -1,10 +1,11 @@
 .container {
-  height: 60px;
   width: 100%;
+  height: 60px;
   border-bottom: 1px solid #888;
 }
+
 .wrapper {
-  height: 100px;
+  height: 100%;
   width: 1380px;
   display: flex;
   align-items: center;
@@ -13,16 +14,19 @@
   padding: 0.75rem 2rem;
   margin-bottom: 6rem;
 }
+
 .icon {
   font-size: 26px;
 }
-/*left  */
+
+/* left */
 .logo {
   width: 150px;
   height: 50px;
   object-fit: cover;
 }
-/*Center */
+
+/* center */
 .center {
   display: flex;
   align-items: center;
@@ -32,10 +36,12 @@
   padding: 0 0.25rem;
   border-radius: 6px;
 }
+
 .center:focus-within {
   border-color: #000;
 }
-.searchinput {
+
+.searchInput {
   width: 90%;
   height: 100%;
   border: none;
@@ -48,20 +54,24 @@
   margin-left: 6px;
   cursor: pointer;
 }
-/*Right  */
+
+/* right */
 .right {
   display: flex;
   align-items: center;
   gap: 12px;
 }
+
 .right > * {
   cursor: pointer;
 }
+
 .profilePicContainer {
   width: 40px;
   height: 40px;
 }
-.profilePicimg {
+
+.profilePicImg {
   width: 100%;
   height: 100%;
   object-fit: cover;
